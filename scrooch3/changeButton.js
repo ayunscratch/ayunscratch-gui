@@ -6,12 +6,12 @@
 
     links.forEach(link => {
       // Change link
-      link.href = "https://www.google.com";
+      link.href = "https://chipmunk.land";
 
       // Change text inside
       const span = link.querySelector(".button_content_3jdgj span");
       if (span) {
-        span.textContent = "Google";
+        span.textContent = "Chipmunk.land";
       }
     });
   }
